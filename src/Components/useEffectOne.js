@@ -2,6 +2,7 @@
 //useEffect is used in functional Component like we use componentDidMount, ComponentDidUpdate and ComponentDidUnmount in class component
 //We Did conditional run on useEffect
 
+
 import React, { useEffect, useState } from 'react'
 
 function UseEffectOne() {
@@ -11,7 +12,7 @@ function UseEffectOne() {
 
 //In useState 1st parameter is callback fn and 2nd parameter is array which include prop or state on whose basis useEffect execute
 //this 2nd parameter is for conditional executing useEffect    
-
+//if we pass 2nd parameter as empty array ([])then useEffect execute only once initially..(like in class comp. componentDidMount() is used)
     useEffect(()=>{  
         console.log(`updating document title`)
         document.title=`you clicked ${count} times`
