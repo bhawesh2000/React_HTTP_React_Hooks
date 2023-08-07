@@ -7,6 +7,8 @@ import HooksComponentTwo from './Components/HooksComponentTwo';
 import HooksComponentThree from './Components/HooksComponentThree';
 import HooksComponentFour from './Components/HooksComponentFour';
 import UseEffectOne from './Components/useEffectOne';
+import HookMouse from './Components/HookMouse';
+import MouseContainer from './Components/MouseContainer';
 
 function App() {
   return (
@@ -17,7 +19,9 @@ function App() {
      {/* <HooksComponentTwo /> */}
      {/* <HooksComponentThree /> */}
      {/* <HooksComponentFour /> */}
-     <UseEffectOne />
+     {/* <UseEffectOne /> */}
+     {/* <HookMouse /> */}
+     <MouseContainer />
     </div>
   );
 }
