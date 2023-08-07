@@ -5,6 +5,7 @@ import FormPost from './Components/FormPost';
 import HooksCounter from './Components/HooksCounter';
 import HooksComponentTwo from './Components/HooksComponentTwo';
 import HooksComponentThree from './Components/HooksComponentThree';
+import HooksComponentFour from './Components/HooksComponentFour';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
      {/* <FormPost /> */}
      {/* <HooksCounter /> */}
      {/* <HooksComponentTwo /> */}
-     <HooksComponentThree />
+     {/* <HooksComponentThree /> */}
+     <HooksComponentFour />
     </div>
   );
 }
