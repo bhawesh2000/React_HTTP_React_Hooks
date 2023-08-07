@@ -6,6 +6,7 @@ import HooksCounter from './Components/HooksCounter';
 import HooksComponentTwo from './Components/HooksComponentTwo';
 import HooksComponentThree from './Components/HooksComponentThree';
 import HooksComponentFour from './Components/HooksComponentFour';
+import UseEffectOne from './Components/useEffectOne';
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
      {/* <HooksCounter /> */}
      {/* <HooksComponentTwo /> */}
      {/* <HooksComponentThree /> */}
-     <HooksComponentFour />
+     {/* <HooksComponentFour /> */}
+     <UseEffectOne />
     </div>
   );
 }
