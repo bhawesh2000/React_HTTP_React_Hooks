@@ -12,6 +12,7 @@ import MouseContainer from './Components/MouseContainer';
 import DataFetching from './Components/DataFetching';
 import ComponentC from './Components/ComponentC';
 import React from 'react';
+import CounterTwo from './Components/CounterTwo';
 
 export const UserContext=React.createContext()
 export const ChannelContext=React.createContext()
@@ -31,12 +32,13 @@ function App() {
      {/* <MouseContainer /> */}
      {/* <DataFetching /> */}
 
-     <UserContext.Provider value={'Bhawesh'}>
+    {/*  <UserContext.Provider value={'Bhawesh'}>
       <ChannelContext.Provider value={'Developer'}>
         <ComponentC />
       </ChannelContext.Provider>
-     </UserContext.Provider>
+     </UserContext.Provider> */}
 
+     <CounterTwo />
     </div>
   );
 }
