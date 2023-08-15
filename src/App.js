@@ -10,6 +10,12 @@ import UseEffectOne from './Components/useEffectOne';
 import HookMouse from './Components/HookMouse';
 import MouseContainer from './Components/MouseContainer';
 import DataFetching from './Components/DataFetching';
+import ComponentC from './Components/ComponentC';
+import React from 'react';
+
+export const UserContext=React.createContext()
+export const ChannelContext=React.createContext()
+//now provide these context with value in jsx
 
 function App() {
   return (
@@ -23,7 +29,14 @@ function App() {
      {/* <UseEffectOne /> */}
      {/* <HookMouse /> */}
      {/* <MouseContainer /> */}
-     <DataFetching />
+     {/* <DataFetching /> */}
+
+     <UserContext.Provider value={'Bhawesh'}>
+      <ChannelContext.Provider value={'Developer'}>
+        <ComponentC />
+      </ChannelContext.Provider>
+     </UserContext.Provider>
+
     </div>
   );
 }
