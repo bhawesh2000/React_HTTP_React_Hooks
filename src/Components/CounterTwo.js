@@ -30,9 +30,6 @@ function CounterTwo() {
       <button onClick={()=> dispatch({type:'reset'})}>Reset</button>
       <button onClick={()=> dispatch({type :'increment' , value:5})}>Increment5</button>
       <button onClick={()=> dispatch({type :'decrement' , value:5})}>Decrement5</button>
-
-     
-   
       
     </div>
   )

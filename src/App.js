@@ -13,6 +13,10 @@ import DataFetching from './Components/DataFetching';
 import ComponentC from './Components/ComponentC';
 import React from 'react';
 import CounterTwo from './Components/CounterTwo';
+import FetchingDataTwo from './Components/FetchingDataTwo';
+import Counter1 from './CustomHookComponent/Counter1';
+import Counter2 from './CustomHookComponent/Counter2';
+
 
 export const UserContext=React.createContext()
 export const ChannelContext=React.createContext()
@@ -38,7 +42,11 @@ function App() {
       </ChannelContext.Provider>
      </UserContext.Provider> */}
 
-     <CounterTwo />
+     {/* <CounterTwo /> */}
+
+     {/* <FetchingDataTwo /> */}
+     <Counter1 />
+     <Counter2 />
     </div>
   );
 }
